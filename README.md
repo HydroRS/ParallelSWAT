@@ -24,6 +24,8 @@ Run SWAT sequentially for an iteartion batch will consume a lot a time, here we 
 ## 3. Parallel_SWAT_SUFI_Modeling
 This version of code is used to spatially optimize the objective function for each sub-wateshed in a parallel mamner. The optimization strategt could move beyond the “average effect” of the combined objective optimization, and can make the best use of the spatial and temporal information provided by the satellite-based product.
 
-The test data has been provided in the folder 'test_data'
+The test data has been provided in the folder 'test_data'. More details regarding the programs can be found within the codes.
 
+## Citation
 Please cite these programs as: Ling Zhang, et al., 2020, A parallel computing-based and spatially stepwise strategy for constraining a semi-distributed hydrological model with streamflow observations and satellite-based evapotranspiration, in preparation. 
+
