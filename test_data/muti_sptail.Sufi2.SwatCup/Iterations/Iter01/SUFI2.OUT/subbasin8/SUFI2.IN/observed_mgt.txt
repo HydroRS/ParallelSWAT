@@ -1,0 +1,71 @@
+5     : number of observed variables		
+		
+GRAS_1  : this is the name of the variable and the hru number to be included in the objective function		
+15      : number of data points for this variable as it follows below. First column is a sequential number from beginning 		
+      : of the simulation, second column is variable name and date (format arbitrary), third column is variable value. 		
+		
+1	Yld_1987	168
+2	Yld_1988	222
+3	Yld_1989	250
+4	Yld_1990	186
+5	Yld_1991	117
+6	Yld_1992	291
+7	Yld_1993	295
+8	Yld_1994	259
+9	Yld_1995	215
+10	Yld_1996	291
+11	Yld_1997	295
+12	Yld_1998	259
+13	Yld_1999	215
+14	Yld_2000	259
+15	Yld_2001	215
+
+
+				
+GRAS_2  : this is the name of the variable and the hru number to be included in the objective function		
+10      : number of data points for this variable as it follows below. First column is a sequential number from beginning 		
+      : of the simulation, second column is variable name and date (format arbitrary), third column is variable value. 		
+		
+1	Yld_1987	168
+6	Yld_1992	291
+7	Yld_1993	295
+8	Yld_1994	259
+9	Yld_1995	215
+10	Yld_1996	291
+11	Yld_1997	295
+13	Yld_1999	215
+14	Yld_2000	259
+15	Yld_2001	215
+
+GRAS_3  : this is the name of the variable and the hru number to be included in the objective function		
+6      : number of data points for this variable as it follows below. First column is a sequential number from beginning 		
+      : of the simulation, second column is variable name and date (format arbitrary), third column is variable value. 		
+		
+1	Yld_1987	168
+2	Yld_1988	222
+3	Yld_1989	250
+4	Yld_1990	186
+14	Yld_2000	259
+15	Yld_2001	215
+		
+SHRB_8  : this is the name of the variable and the hru number to be included in the objective function		
+5    : number of data points for this variable as it follows below. First column is a sequential number from beginning 		
+      : of the simulation, second column is variable name and date (format arbitrary), third column is variable value. 		
+		
+1	Yld_1987	168
+2	Yld_1988	222
+3	Yld_1989	250
+4	Yld_1990	186
+5	Yld_1991	117
+	
+
+SHRB_10  : this is the name of the variable and the hru number to be included in the objective function		
+5    : number of data points for this variable as it follows below. First column is a sequential number from beginning 		
+      : of the simulation, second column is variable name and date (format arbitrary), third column is variable value. 		
+		
+1	Yld_1987	168
+2	Yld_1988	222
+3	Yld_1989	250
+6	Yld_1992	291
+7	Yld_1993	295
+		

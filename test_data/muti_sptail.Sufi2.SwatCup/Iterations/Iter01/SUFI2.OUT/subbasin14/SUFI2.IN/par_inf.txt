@@ -1,0 +1,7 @@
+4   : Number of Parameters (the program only reads the first 4 parameters or any number indicated here)
+10  : number of simulations
+
+v__SURLAG.hru    0.05  6
+v__ESCO.hru    0.1   1
+v__TLAPS.sub    -10   0
+v__CANMX.hru  0  50

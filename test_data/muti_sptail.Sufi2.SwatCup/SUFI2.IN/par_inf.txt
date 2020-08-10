@@ -1,0 +1,13 @@
+9   : Number of Parameters (the program only reads the first 4 parameters or any number indicated here)
+
+  : number of simulations
+
+v__SURLAG.hru    0.05  6
+r__SOL_AWC().sol    -0.15   0.15
+r__CN2.mgt   -0.25   0.25
+v__CH_N2.rte    0   0.15
+v__CH_K2.rte    5   100
+v__ALPHA_BF.gw    0   1
+v__GW_DELAY.gw    0  500
+v__GWQMN.gw    0   5000
+v__GW_REVAP.gw    0.02   0.2

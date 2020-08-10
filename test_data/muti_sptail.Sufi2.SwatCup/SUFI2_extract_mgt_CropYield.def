@@ -1,0 +1,34 @@
+SUFI2          :program
+output.mgt     : swat output file name
+2              : number of crops to get
+GRAS WWHT      : crop names (as many as the above number)
+
+20              : total number of subbasins in the project
+38             : total number of hrus in the project
+
+2              : number of subbasins to get for the first variable
+1 2            : subbasin number(s) for the first variable (if equal to total number of subbasins then must be ALL)
+
+
+20            : number of subbasins to get for the second variable (if not needed delete this and the next line)
+ALL           : subbasin number(s) for the second variable (if equal to total number of subbasins then must be ALL)
+
+
+1987           : beginning year of simulation not including the warm up period
+2001           : end year of simulation
+
+ 
+
+
+
+//Remarks
+
+ 
+
+
+
+//Remarks
+
+
+
+

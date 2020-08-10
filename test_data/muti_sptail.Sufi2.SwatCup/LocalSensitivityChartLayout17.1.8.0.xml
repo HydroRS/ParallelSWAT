@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChartXmlSerializer version="17.1.8.0">
+  <Chart AppearanceNameSerializable="Default" PaletteName="Solstice" SelectionMode="Single" SeriesSelectionMode="Series">
+    <DataContainer SeriesDataMember="SeriesTitle" BoundSeriesSorting="None">
+      <SeriesSerializable>
+        <Item1 Name="Obs" ArgumentDataMember="Argument" ValueDataMembersSerializable="Value" ArgumentScaleType="Numerical" LabelsVisibility="False" LegendText="Obs">
+          <View MarkerVisibility="False" Color="Black" TypeNameSerializable="LineSeriesView">
+            <LineStyle Thickness="3" DashStyle="Dash" />
+            <SeriesPointAnimation TypeNameSerializable="XYMarkerWidenAnimation" />
+          </View>
+          <Label TypeNameSerializable="PointSeriesLabel" LineVisibility="True" TextOrientation="Horizontal" />
+        </Item1>
+      </SeriesSerializable>
+      <SeriesTemplate ArgumentDataMember="Argument" ValueDataMembersSerializable="Value" ArgumentScaleType="Numerical" LabelsVisibility="False" LegendTextPattern="{V:G}">
+        <View MarkerVisibility="False" TypeNameSerializable="LineSeriesView">
+          <LineStyle Thickness="3" />
+          <SeriesPointAnimation TypeNameSerializable="XYMarkerWidenAnimation" />
+        </View>
+        <Label TypeNameSerializable="PointSeriesLabel" LineVisibility="True" TextOrientation="Horizontal" />
+      </SeriesTemplate>
+    </DataContainer>
+    <Legend BackColor="WhiteSmoke" Font="Tahoma, 8pt, style=Bold" Name="Default Legend">
+      <Shadow Visible="true" />
+    </Legend>
+    <Titles>
+      <Item1 Text="FLOW_OUT_1" />
+    </Titles>
+    <Border Visibility="False" />
+    <Padding Left="45" Top="15" Right="45" Bottom="15" />
+    <OptionsPrint SizeMode="Stretch" />
+    <Diagram TypeNameSerializable="XYDiagram">
+      <AxisX VisibleInPanesSerializable="-1" MinorCount="1">
+        <Title Text="Axis X" />
+        <WholeRange AutoSideMargins="false" SideMarginsValue="0" />
+      </AxisX>
+      <AxisY VisibleInPanesSerializable="-1">
+        <Title Text="Axis Y" />
+      </AxisY>
+      <DefaultPane BackColor="White">
+        <FillStyle FillMode="Gradient">
+          <Options Color2="234, 234, 234" TypeNameSerializable="RectangleGradientFillOptions" />
+        </FillStyle>
+        <Shadow Visible="true" />
+      </DefaultPane>
+    </Diagram>
+    <XtraPaletteRepository>
+      <Item1 Name="Palette 1" ScaleMode="Repeat">
+        <Palette>
+          <Item1 Color="56, 145, 167" Color2="39, 101, 117" />
+          <Item2 Color="254, 184, 10" Color2="184, 131, 1" />
+          <Item3 Color="195, 45, 46" Color2="136, 32, 32" />
+          <Item4 Color="132, 170, 51" Color2="92, 119, 36" />
+          <Item5 Color="150, 67, 5" Color2="105, 47, 3" />
+          <Item6 Color="71, 90, 141" Color2="50, 63, 99" />
+          <Item7 Color="Silver" Color2="Silver" />
+        </Palette>
+      </Item1>
+    </XtraPaletteRepository>
+    <AutoSeriesCheckedInLegendStates>
+      <Item1 CheckState="true" AutoSeriesName="175.000000" />
+      <Item2 CheckState="true" AutoSeriesName="325.000000" />
+      <Item3 CheckState="true" AutoSeriesName="275.000000" />
+      <Item4 CheckState="true" AutoSeriesName="125.000000" />
+      <Item5 CheckState="true" AutoSeriesName="425.000000" />
+      <Item6 CheckState="true" AutoSeriesName="475.000000" />
+      <Item7 CheckState="true" AutoSeriesName="25.000000" />
+      <Item8 CheckState="true" AutoSeriesName="225.000000" />
+      <Item9 CheckState="true" AutoSeriesName="375.000000" />
+      <Item10 CheckState="true" AutoSeriesName="75.000000" />
+    </AutoSeriesCheckedInLegendStates>
+  </Chart>
+</ChartXmlSerializer>

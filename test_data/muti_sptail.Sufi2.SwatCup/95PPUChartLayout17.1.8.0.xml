@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ChartXmlSerializer version="17.1.8.0">
+  <Chart AppearanceNameSerializable="Default" SelectionMode="None" SeriesSelectionMode="Series">
+    <DataContainer BoundSeriesSorting="None">
+      <SeriesSerializable>
+        <Item1 Name="Upper" ArgumentDataMember="sim_month" ValueDataMembersSerializable="U95PPU" ArgumentScaleType="Numerical" LabelsVisibility="False" LegendText="95PPU">
+          <View Transparency="0" MarkerVisibility="False" Color="Chartreuse" TypeNameSerializable="AreaSeriesView">
+            <FillStyle FillMode="Gradient">
+              <Options Color2="0, 192, 0" TypeNameSerializable="PolygonGradientFillOptions" />
+            </FillStyle>
+            <SeriesPointAnimation TypeNameSerializable="XYMarkerWidenAnimation" />
+          </View>
+        </Item1>
+        <Item2 Name="Lower" ArgumentDataMember="sim_month" ValueDataMembersSerializable="L95PPU" ArgumentScaleType="Numerical" LabelsVisibility="False" ShowInLegend="false" LegendText="Lower Limit">
+          <View Transparency="0" MarkerVisibility="False" Color="White" TypeNameSerializable="AreaSeriesView">
+            <FillStyle FillMode="Gradient">
+              <Options Color2="234, 234, 234" TypeNameSerializable="PolygonGradientFillOptions" />
+            </FillStyle>
+            <SeriesPointAnimation TypeNameSerializable="XYMarkerWidenAnimation" />
+          </View>
+        </Item2>
+        <Item3 Name="Observed" ArgumentDataMember="sim_month" ValueDataMembersSerializable="Observed" ArgumentScaleType="Numerical" LabelsVisibility="False">
+          <View Transparency="0" MarkerVisibility="False" Color="Transparent" TypeNameSerializable="AreaSeriesView">
+            <Border Color="Blue" Thickness="2" />
+            <SeriesPointAnimation TypeNameSerializable="XYMarkerWidenAnimation" />
+          </View>
+        </Item3>
+        <Item4 Name="Bestestimation" ArgumentDataMember="sim_month" ValueDataMembersSerializable="Best_Sim" ArgumentScaleType="Numerical" LabelsVisibility="False" LegendText="Best estimation">
+          <View Transparency="0" MarkerVisibility="False" Color="Transparent" TypeNameSerializable="AreaSeriesView">
+            <Border Color="Red" Thickness="2" />
+            <SeriesPointAnimation TypeNameSerializable="XYMarkerWidenAnimation" />
+          </View>
+        </Item4>
+      </SeriesSerializable>
+      <SeriesTemplate>
+        <View TypeNameSerializable="StackedAreaSeriesView" />
+      </SeriesTemplate>
+    </DataContainer>
+    <Legend AlignmentHorizontal="Right" AlignmentVertical="TopOutside" BackColor="WhiteSmoke" Name="Default Legend">
+      <Shadow Visible="true" />
+    </Legend>
+    <Titles>
+      <Item1 Visibility="True" Text="FLOW_OUT_1" />
+    </Titles>
+    <Border Visibility="False" />
+    <OptionsPrint SizeMode="Stretch" />
+    <Diagram EnableAxisXZooming="true" EnableAxisYZooming="true" TypeNameSerializable="XYDiagram">
+      <AxisX VisibleInPanesSerializable="-1" MinorCount="1">
+        <Title Text="Axis X" />
+        <WholeRange AutoSideMargins="false" SideMarginsValue="0" />
+      </AxisX>
+      <AxisY VisibleInPanesSerializable="-1">
+        <Title Text="Axis Y" />
+      </AxisY>
+      <DefaultPane BackColor="White">
+        <FillStyle FillMode="Gradient">
+          <Options Color2="234, 234, 234" TypeNameSerializable="RectangleGradientFillOptions" />
+        </FillStyle>
+        <Shadow Visible="true" />
+      </DefaultPane>
+    </Diagram>
+  </Chart>
+</ChartXmlSerializer>

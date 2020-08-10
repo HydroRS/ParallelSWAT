@@ -1,0 +1,51 @@
+2      : number of observed variables
+
+PET_1  : this is the name of the variable and the hru number to be included in the objective function
+17    : number of data points for this variable as it follows below. First column is a sequential number from beginning 
+      : of the simulation, second column is variable name and date (format arbitrary), third column is variable value. 
+
+4	ET_1_1990.4	130.5913
+5	ET_1_1990.5	100.8188
+10	ET_1_1990.10	91.906
+11	ET_1_1990.11	60.4995
+12	ET_1_1990.12	60.3348
+13	ET_1_1991.1	20.5686
+14	ET_1_1991.2	10.7132
+15	ET_1_1991.3	80.4877
+16	ET_1_1991.4	140.5748
+17	ET_1_1991.5	92.199
+18	ET_1_1991.6	90.5848
+19	ET_1_1991.7	140.1127
+20	ET_1_1991.8	150.0012
+21	ET_1_1991.9	90.8347
+22	ET_1_1991.10	90.1539
+23	ET_1_1991.11	60.3731
+24	ET_1_1991.12	100.1817
+
+
+SW_END_3  : this is the name of the variable and the hru number to be included in the objective function
+22    : number of data points for this variable as it follows below. First column is a sequential number from beginning 
+      : of the simulation, second column is variable name and date (format arbitrary), third column is variable value. 
+
+1	SW_END_3_1990.1		30.096
+2	SW_END_3_1990.2		60.0795
+3	SW_END_3_1990.3		70.302
+4	SW_END_3_1990.4		80.5595
+5	SW_END_3_1990.5		131.209
+6	SW_END_3_1990.6		160.2272
+7	SW_END_3_1990.7		120.279
+8	SW_END_3_1990.8		20.1025
+9	SW_END_3_1990.9		110.4498
+10	SW_END_3_1990.10	82.495
+11	SW_END_3_1990.11	80.2158
+12	SW_END_3_1990.12	30.5395
+13	SW_END_3_1991.1		50.6757
+14	SW_END_3_1991.2		50.7327
+15	SW_END_3_1991.3		120.6976
+16	SW_END_3_1991.4		111.269
+17	SW_END_3_1991.5		133.83
+18	SW_END_3_1991.6		150.8387
+19	SW_END_3_1991.7		140.1601
+20	SW_END_3_1991.8		100.0011
+21	SW_END_3_1991.9		120.6769
+22	SW_END_3_1991.10	80.2186

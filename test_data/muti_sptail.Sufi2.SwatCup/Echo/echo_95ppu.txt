@@ -1,0 +1,68 @@
+--- echo of SUFI2_95ppu.CPP
+--------------------------------------
+Max size of arrays:
+Max number of simulations=    2,000
+Max number of observed data=  30,000
+Max number of obs. variables= 30
+Max number of parameters=     500
+-------------------------------------
+
+number of parameters=   4
+number of simulation=   10
+-------------------- Reading observed.txt --------------
+total number of variables=  26
+obj fn type=  9
+behavioral threshold=  0.500000
+Power of MSN=  1.000000
+FLOW_OUT_1.txt  
+FLOW_OUT_2.txt  
+FLOW_OUT_3.txt  
+ET_1.txt  
+ET_2.txt  
+ET_3.txt  
+ET_4.txt  
+ET_5.txt  
+ET_6.txt  
+ET_7.txt  
+ET_8.txt  
+ET_9.txt  
+ET_10.txt  
+ET_11.txt  
+ET_12.txt  
+ET_13.txt  
+ET_14.txt  
+ET_15.txt  
+ET_16.txt  
+ET_17.txt  
+ET_18.txt  
+ET_19.txt  
+ET_20.txt  
+ET_21.txt  
+ET_22.txt  
+ET_23.txt  
+file_name 1 = FLOW_OUT_1.txt
+file_name 2 = FLOW_OUT_2.txt
+file_name 3 = FLOW_OUT_3.txt
+file_name 4 = ET_1.txt
+file_name 5 = ET_2.txt
+file_name 6 = ET_3.txt
+file_name 7 = ET_4.txt
+file_name 8 = ET_5.txt
+file_name 9 = ET_6.txt
+file_name 10 = ET_7.txt
+file_name 11 = ET_8.txt
+file_name 12 = ET_9.txt
+file_name 13 = ET_10.txt
+file_name 14 = ET_11.txt
+file_name 15 = ET_12.txt
+file_name 16 = ET_13.txt
+file_name 17 = ET_14.txt
+file_name 18 = ET_15.txt
+file_name 19 = ET_16.txt
+file_name 20 = ET_17.txt
+file_name 21 = ET_18.txt
+file_name 22 = ET_19.txt
+file_name 23 = ET_20.txt
+file_name 24 = ET_21.txt
+file_name 25 = ET_22.txt
+file_name 26 = ET_23.txt

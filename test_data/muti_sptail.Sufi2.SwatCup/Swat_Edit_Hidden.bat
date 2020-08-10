@@ -1,0 +1,1 @@
+start /w  WSCRIPT.EXE Runhiden.vbs

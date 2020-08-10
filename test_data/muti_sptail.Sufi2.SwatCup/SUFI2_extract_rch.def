@@ -1,0 +1,13 @@
+output.rch     : swat output file name
+
+1              : number of variables to get
+7              : variable column number(s) in the swat output file (as many as the above number)
+
+23              : total number of reaches (subbasins) in the project
+
+3              : number of reaches (subbasins) to get for the first variable
+1 12 19          : reach (subbasin) numbers for the first variable
+
+2007           : beginning year of simulation not including the warm up period
+2009          : end year of simulation
+1              : time step (1=daily, 2=monthly, 3=yearly)

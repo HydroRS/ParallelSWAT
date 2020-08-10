@@ -1,0 +1,12 @@
+Echo of LH_sample_SUFI2.cpp
+-----------------------------------
+Maximum size of arrays:
+Max number of parameters=  800
+Max number of simulations= 2,000
+------------------------------------
+number of parameters=   4
+number of simulation=   10
+1                              v__SURLAG.hru       0.050000       6.000000
+2                                v__ESCO.hru       0.100000       1.000000
+3                               v__TLAPS.sub     -10.000000       0.000000
+4                               v__CANMX.hru       0.000000      50.000000

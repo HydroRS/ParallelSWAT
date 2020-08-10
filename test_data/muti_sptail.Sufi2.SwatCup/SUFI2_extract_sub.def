@@ -1,0 +1,13 @@
+output.sub     : swat output file name
+
+1              : number of variables to get
+8              : variable column number(s) in the swat output file (as many as the above number)
+
+23              : total number of subbasins in the project
+
+23              :total number of subbasins in the project
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23          : subbasin numbers for the first variable
+
+2007           : beginning year of simulation not including the warm up period
+2009          : end year of simulation
+1              : time step (1=daily, 2=monthly, 3=yearly)

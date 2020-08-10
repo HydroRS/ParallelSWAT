@@ -1,0 +1,14 @@
+Goal_type=KGE  No_sims=10  Best_sim_no= 9  Best_goal = 0.6596
+
+Parameter_Name  Fitted_Value     Min_value      Max_value
+v__SURLAG.hru      3.9175    0.0500    6.0000
+v__ESCO.hru      0.4150    0.1000    1.0000
+v__TLAPS.sub     -6.5000  -10.0000    0.0000
+v__CANMX.hru     37.5000    0.0000   50.0000
+
+3.9175        0.415         -6.5         37.5
+
+v__SURLAG.hru      3.9175
+v__ESCO.hru      0.4150
+v__TLAPS.sub     -6.5000
+v__CANMX.hru     37.5000

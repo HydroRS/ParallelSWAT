@@ -1,0 +1,43 @@
+SUFI2          : SWAT-CUP program: SUFI2, GLUE, ParaSol, PSO, MCMC
+output.rsv     : swat output file name
+8              : number of variables to get (such as: discharge, sediment, ET etc.)
+13 14 16 17 19 20 28 29    : variable column number(s) in the swat output file (as many as the number above)
+org_in  org_out  orgp_in orgp_out inorgn_in inorgn_out  inorgp_in inorgp_out      :Names of variables
+
+4            : total number of reservoirs in the project
+
+4              : number of reservoirs to get for the first variable
+1 2 3 4              : reservoir numbers for the first variable (ordered
+
+4              : number of reservoirs to get for the first variable
+1 2 3 4              : reservoir numbers for the first variable (ordered
+
+4              : number of reservoirs to get for the first variable
+1 2 3 4              : reservoir numbers for the first variable (ordered
+
+4              : number of reservoirs to get for the first variable
+1 2 3 4              : reservoir numbers for the first variable (ordered
+
+4              : number of reservoirs to get for the first variable
+1 2 3 4              : reservoir numbers for the first variable (ordered
+
+4              : number of reservoirs to get for the first variable
+1 2 3 4              : reservoir numbers for the first variable (ordered
+
+4              : number of reservoirs to get for the first variable
+1 2 3 4              : reservoir numbers for the first variable (ordered
+
+4              : number of reservoirs to get for the first variable
+1 2 3 4              : reservoir numbers for the first variable (ordered
+
+
+1985           : beginning year of simulation not including the warm up period
+2008           : end year of simulation
+
+2              : time step (1=daily, 2=monthly, 3=yearly)
+
+
+ 
+
+
+//Remarks
