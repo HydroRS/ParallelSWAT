@@ -1,11 +1,9 @@
 # Parallel_spatially_stepwise_calibration-SWAT
 
-Parallel computing-based and Spatially stepwise calibration of SWAT with streamflow observaitons and Satellite-based ET
+Parallel computing-based and Spatially stepwise calibration of SWAT with streamflow observaitons and Satellite-based ET. Please feel free to contact me if you have any questions, zhanglingky@lzb.ac.cn
+
 
 We have uploaded three versions of codes,i.e., Parallel_SWAT_SetUp, Parallel_SWAT_Modelling and Parallel_SWAT_SUFI_Modeling, which can be used for different purposes.
-
-Please feel free to contact me if you have any questions, zhanglingky@lzb.ac.cn
-
 
 We here give a brief description and usage of the codes
  
