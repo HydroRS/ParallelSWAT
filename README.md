@@ -34,5 +34,5 @@ This version of code is used to spatially optimize the objective function for ea
 The test data has been provided in the folder 'test_data'. More details regarding the programs can be found within the codes.
 
 ## Citation
-Please cite these programs as: Ling Zhang, et al., 2021, A parallel computing-based and spatially stepwise strategy for constraining a semi-distributed hydrological model with streamflow observations and satellite-based evapotranspiration, Journal of Hydrology.
+Please cite these programs as: Zhang L, Zhao Y, Ma Q, Wang P, Ge Y, Yu W. A parallel computing-based and spatially stepwise strategy for constraining a semi-distributed hydrological model with streamflow observations and satellite-based evapotranspiration. Journal of Hydrology, 2021, 599:126359.
 
